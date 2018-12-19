@@ -1,0 +1,29 @@
+MVC pattern example - graphing calculator
+-----------------------------------------
+
+A more complex MVC model.  There are two views (screens), hence two controllers.
+    calculator_view_controller.e
+    function_graph_vc.e
+
+There is one model] shared by the two controllers
+    calculator.e
+
+The remaining classes implement support data types and the execution starings
+point.
+
+Entry is in postfix notation. Enter is used primarily to indicate the end of
+a numbe, otherwise if the "entry type" changes the view controller enters the
+Enter for you.
+
+The graph function is f(x) where x is the variable on the pad.
+
+Here is a long example illustrating how the calculator works.  The first graph
+displayed is  f(x) = x * cos(x), then x / cos(x), then x * sin(x).
+
+    x x cos * Graph CalculatorPad Undo / Graph CalculatorPad
+    Undo Undo sin * Graph CalculatorPad
+
+    Clear
+
+    2 enter 3 * 4 enter 4 +/- * / graph CalculatorPad
+

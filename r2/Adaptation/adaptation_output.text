@@ -1,0 +1,115 @@
+First line of inheritance test.
+
+================================================
+*** Create an instance of each object type
+
+Make_attendee in CONF_ATTENDEE
+Make_person in CONF_SPEAKER
+Make_conf_tut_attendee in CONF_TUT_ATTENDEE
+make_speaker in INVITED_SPEAKER
+Make_tut_attendee in TUT_ATTENDEE
+Make_person in TUT_SPEAKER
+
+================================================
+*** Routines for conference attendees
+
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_ATTENDEE
+Make_attendee in CONF_ATTENDEE
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_ATTENDEE
+Make_attendee in CONF_ATTENDEE
+Print_conf_attendee in CONF_ATTENDEE
+
+================================================
+*** Routines for tutorial attendees
+
+Print_attendee in ATTENDEE
+Print_person in TUT_ATTENDEE
+Make_tut_attendee in TUT_ATTENDEE
+Print_attendee in ATTENDEE
+Print_person in TUT_ATTENDEE
+Make_tut_attendee in TUT_ATTENDEE
+Print_person in TUT_ATTENDEE
+
+================================================
+*** Routines for conference & tutorial attendees
+
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_TUT_ATTENDEE
+Print_person in TUT_ATTENDEE
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_TUT_ATTENDEE
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_TUT_ATTENDEE
+Make_conf_tut_attendee in CONF_TUT_ATTENDEE
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_TUT_ATTENDEE
+Make_conf_tut_attendee in CONF_TUT_ATTENDEE
+Print_conf_attendee in CONF_TUT_ATTENDEE
+
+================================================
+*** Routines for invited speakers
+
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_TUT_ATTENDEE
+Print_person in INVITED_SPEALER
+Print_speaker in SPEAKER
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_TUT_ATTENDEE
+Print_person in INVITED_SPEALER
+Print_speaker in SPEAKER
+Print_attendee in ATTENDEE
+Print_person in INVITED_SPEALER
+Print_attendee in ATTENDEE
+Print_person in INVITED_SPEALER
+make_speaker in INVITED_SPEAKER
+Print_attendee in ATTENDEE
+Print_person in INVITED_SPEALER
+make_speaker in INVITED_SPEAKER
+Print_person in INVITED_SPEALER
+Print_speaker in SPEAKER
+make_speaker in INVITED_SPEAKER
+Print_person in INVITED_SPEALER
+
+================================================
+*** Routines for conference speakers
+
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_ATTENDEE
+Print_person in CONF_SPEAKER
+Print_speaker in SPEAKER
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_ATTENDEE
+Make_person in CONF_SPEAKER
+Print_attendee in ATTENDEE
+Print_conf_attendee in CONF_ATTENDEE
+Make_person in CONF_SPEAKER
+Print_conf_attendee in CONF_ATTENDEE
+Print_speaker in SPEAKER
+Make_person in CONF_SPEAKER
+Print_conf_attendee in CONF_ATTENDEE
+Make_person in CONF_SPEAKER
+Print_conf_attendee in CONF_ATTENDEE
+
+================================================
+*** Routines for tutorial speakers
+
+Print_attendee in ATTENDEE
+Print_person in TUT_SPEAKER
+Print_speaker in SPEAKER
+Print_attendee in ATTENDEE
+Print_person in TUT_SPEAKER
+Make_person in TUT_SPEAKER
+Print_attendee in ATTENDEE
+Print_person in TUT_SPEAKER
+Make_person in TUT_SPEAKER
+Print_person in TUT_SPEAKER
+Print_speaker in SPEAKER
+Make_person in TUT_SPEAKER
+Print_person in TUT_SPEAKER
+Make_person in TUT_SPEAKER
+Print_person in TUT_SPEAKER
+
+
+Last line of inheritance test.
